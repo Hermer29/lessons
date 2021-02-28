@@ -1,7 +1,9 @@
 using System;
 
-class Program
+namespace IterativeMethodSample
 {
+	internal class Program
+	{
   
   /*
   
@@ -14,19 +16,20 @@ class Program
   */
   
   
-  static void Main()
-  {
-    int variable;
+  	static void Main()
+  	{
+    	int variable;
     
-    for(int i = 0; i < 100; i++)
-    {
-      if(i % 50 == 0)
-      {
-        variable = i;
-      }
-    }
+    	for(int i = 0; i < 100; i++)
+    	{
+			variable = 1;
+      		if(i % 50 == 0)
+      		{
+        		variable = i;
+      		}
+  	  	}
+    	Console.WriteLine(variable);
     
-    Console.WriteLine(variable);
-    
-  }
+  		}
+	}
 }
