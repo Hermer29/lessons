@@ -22,7 +22,7 @@ namespace IterativeMethodSample
     
     	for(int i = 0; i < 100; i++)
     	{
-			variable = 1;
+			variable =  1;
       		if(i % 50 == 0)
       		{
         		variable = i;
