@@ -4,7 +4,7 @@ class Program
 {
   static void Main()
   {
-    
+    Console.WriteLine(Function1(1,2,3,4,5,6,7));
   }
    
    /*
@@ -23,7 +23,7 @@ class Program
   здесь и нужно ключевое слово params
   */
   
-  static int Function(params int[] args)
+  static int Function1(params int[] args)
   {
     //параметр помеченный словом params должен быть массив
     int n = default; //чтобы суммировать все в нем
